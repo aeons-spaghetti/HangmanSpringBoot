@@ -56,4 +56,34 @@ public class GameState implements Serializable {
     * {@code true} if the player guessed all letters before running out.
     */
    private boolean won = false;
+// ------------------------------------------------------------------ //
+   //  Getters and setters                                                  //
+   // ------------------------------------------------------------------ //
+
+   public String getFilename() {
+       return filename;
+   }
+
+   public void setFilename(String filename) {
+       this.filename = filename;
+   }
+
+   public String getSecretWord() {
+       return secretWord;
+   }
+
+   public void setSecretWord(String secretWord) {
+       this.secretWord = secretWord;
+   }
+
+   public String getGuessedLetters() {
+       return guessedLetters;
+   }
+
+   public void setGuessedLetters(String guessedLetters) {
+       this.guessedLetters = guessedLetters;
+   }
+
+
+}
 
